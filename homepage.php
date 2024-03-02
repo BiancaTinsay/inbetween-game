@@ -66,6 +66,14 @@
     </style>
 </head>
 <body>
+
+        <!--music-->
+    <audio autoplay loop style="display: none;">
+        <source src= "kakegurui-bgm.mp3" type="audio/mpeg">
+  </audio>
+        
+
+
     <div class="image-container">
             <img src="INBETWEEN.png" alt="bg-img" class="responsive-img">
         </a>
@@ -79,7 +87,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <h5 class="responsive-text a-txt "><a href="#">MECHANICS</a></h5>
+                <h5 class="responsive-text a-txt "><a href="mechanics.php">MECHANICS</a></h5>
             </div>
         </div>
         <div class="row">
