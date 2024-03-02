@@ -35,36 +35,56 @@
             display: block;
             width: 48%;
             height: auto;
-            margin: 20% 0% 25% 5%; /* Set margin-top and margin-left to 5% */
+            margin: 10% 0% 25% 5%; /* Set margin-top and margin-left to 5% */
         }
         .top-img {
             display: block;
             width: 100%;
             height: auto;
-            margin-top: -220px; /* Adjust margin as needed */
+            margin-top: -1150px; /* Adjust margin as needed */
             margin-left: 50px;
         }
+        .a-text{
+          margin-top: -475px;
+          margin-left: -850px;
+        }
+
+        .a-txt{
+          margin-top: -425px;
+          margin-left: -850px;
+
+        }
+
+        .a-txts{
+          margin-top: -375px;
+          margin-left: -850px;
+
+        }
+
+
+
     </style>
 </head>
 <body>
     <div class="image-container">
-        <img src="INBETWEEN.png" alt="bg-img" class="responsive-img">
+            <img src="INBETWEEN.png" alt="bg-img" class="responsive-img">
+        </a>
         <img src="inspired.png" alt="top-img" class="top-img">
     </div>
     <div class="container">
         <div class="row">
             <div class="col">
-                <h5 class="responsive-text"><a href="intro.php">START GAME</a></h5>
+                <h5 class="responsive-text a-text"><a href="intro.php">START GAME</a></h5>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <h5 class="responsive-text"><a href="#">MECHANICS</a></h5>
+                <h5 class="responsive-text a-txt "><a href="#">MECHANICS</a></h5>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <h5 class="responsive-text"><a href="#">EXIT</a></h5>
+                <h5 class="responsive-text a-txts"><a href="#">EXIT</a></h5>
             </div>
         </div>
     </div>
