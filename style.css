@@ -11,20 +11,6 @@ body {
 }
 
 
-h4 {
-    color: red;
-    margin-top: -100px; /* Add space above the element for better readability */
-    margin-left: 20px; /* Add space to the left of the element for better readability */
-}
-
-/* style.css */
-.image-container {
-    position: relative; /* Set container as the positioning context for absolutely positioned children */
-}
-
-
-
-
 .top-img {
     position: absolute; /* Position the image absolutely within its container */
     top: 50%; /* Position the image at the vertical center of its container */
@@ -45,21 +31,7 @@ h4 {
     }
 
 
-
-
-    .responsive-text {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 500;
-        color: red;
-        text-align: left;
-        margin: 10px; /* Adjust margin as needed */
-        transition: transform 0.3s, color 0.2s ease-in; /* Add color transition */
-        }
+  
     
     
-    
-    .responsive-text:hover {
-          transform: scale(1.05); /* Zoom in by 5% */
-          color: #8B0000; 
-        }
-    
+ 
