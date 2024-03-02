@@ -1,0 +1,16 @@
+.board__card {
+    width: 100px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+#board-message {
+    margin-top: 20px;
+}
+
+#bet-form {
+    margin-top: 20px;
+}
