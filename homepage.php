@@ -33,34 +33,39 @@
 
         .responsive-img {
             display: block;
-            width: 48%;
+            width: 45%;
             height: auto;
-            margin: 10% 0% 25% 5%; /* Set margin-top and margin-left to 5% */
+            margin: 11% 0% 25% 5%; /* Set margin-top and margin-left to 5% */
         }
         .top-img {
             display: block;
-            width: 100%;
+            width: 30%;
             height: auto;
-            margin-top: -1150px; /* Adjust margin as needed */
-            margin-left: 50px;
+          /* Adjust margin as needed */
+            margin-left: 250px;
         }
         .a-text{
-          margin-top: -475px;
+          margin-top: 130px;
           margin-left: -850px;
         }
 
         .a-txt{
-          margin-top: -425px;
+          margin-top: -15px;
           margin-left: -850px;
 
         }
 
         .a-txts{
-          margin-top: -375px;
+          margin-top: -10px;
           margin-left: -850px;
 
         }
 
+        .form{
+          margin-top: -900px;
+
+        }
+       
 
 
     </style>
@@ -77,7 +82,7 @@
     <div class="image-container">
             <img src="INBETWEEN.png" alt="bg-img" class="responsive-img">
         </a>
-        <img src="inspired.png" alt="top-img" class="top-img">
+        <img src="inspired.png" alt="top-img" class="top-img form">
     </div>
     <div class="container">
         <div class="row">
